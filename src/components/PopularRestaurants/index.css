@@ -1,0 +1,40 @@
+.restaurant-list-container {
+  padding-left: 0px;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination-text {
+  font-family: 'Bree Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #334155;
+}
+
+.left-icon {
+  background-color: transparent;
+  border: 1px solid #334155;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.right-icon {
+  background-color: transparent;
+  border: 1px solid #334155;
+  font-size: 20px;
+  padding: 5px;
+}

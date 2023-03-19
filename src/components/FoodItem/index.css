@@ -1,0 +1,143 @@
+.food-item {
+  list-style-type: none;
+  width: 48%;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .food-item {
+    width: 100%;
+  }
+}
+
+.food-item-image {
+  border-radius: 8px;
+  min-width: 255px;
+  max-width: 255px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.food-item-image:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media screen and (max-width: 768px) {
+  .food-item-image {
+    min-width: 160px;
+    max-width: 160px;
+    height: 100px;
+  }
+}
+
+.food-details-text {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.food-item-name {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+
+  letter-spacing: 0.2px;
+  color: #334155;
+  margin-bottom: 2px;
+}
+
+@media screen and (max-width: 768px) {
+  .food-item-name {
+    font-size: 14px;
+    margin-bottom: 0px;
+  }
+}
+
+.food-item-cost {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 1px;
+  margin-top: 2px;
+  color: #334155;
+}
+
+@media screen and (max-width: 768px) {
+  .food-item-cost {
+    font-size: 12px;
+    margin-bottom: 0px;
+  }
+}
+
+.food-item-rating-container {
+  display: flex;
+  align-items: center;
+  height: 30px;
+}
+
+.food-item-star {
+  color: #ffcc00;
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .food-item-star {
+    font-size: 10px;
+  }
+}
+
+.food-item-rating {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #0a1f44;
+}
+
+@media screen and (max-width: 768px) {
+  .food-item-rating {
+    font-size: 12px;
+  }
+}
+
+.add-button {
+  align-self: flex-start;
+  background-color: transparent;
+  border: 1px solid #ffa412;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffa412;
+  border-radius: 3px;
+  padding: 5px 10px 5px 10px;
+}
+
+.plus-minus-container {
+  display: flex;
+  align-items: center;
+  height: 20px;
+}
+
+.plus-button {
+  border: 1px solid black;
+
+  background-color: transparent;
+}
+
+.minus-button {
+  border: 1px solid black;
+
+  background-color: transparent;
+}
+
+.items-count-text {
+  margin-right: 5px;
+  margin-left: 5px;
+}

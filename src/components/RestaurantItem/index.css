@@ -1,0 +1,72 @@
+.restaurant-item {
+  list-style-type: none;
+  width: 100%;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.restaurant-image {
+  width: 50%;
+  border-radius: 8px;
+  margin-right: 16px;
+}
+
+.styled-link {
+  text-decoration: none;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .styled-link {
+    width: 32%;
+  }
+}
+
+.hotel-name-item {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #334155;
+}
+
+.cuisine-name-item {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+
+  color: #64748b;
+  margin-bottom: 0px;
+}
+
+.rating-star-item {
+  color: #ffcc00;
+}
+
+.ratings-container {
+  display: flex;
+  align-items: center;
+}
+
+.rating-text {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  margin-left: 5px;
+  color: #1e293b;
+}
+
+.ratings-count-text {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #64748b;
+  margin-left: 5px;
+}

@@ -1,0 +1,71 @@
+.restaurant-details-container {
+  width: 100%;
+}
+
+.restaurant-individual-details {
+  margin-top: 40px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+  background-color: #333333;
+  justify-content: center;
+}
+
+.details-route-main-image {
+  width: 30%;
+}
+
+.details-texts {
+  padding-left: 20px;
+}
+
+.details-name-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+
+.details-location-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.details-cuisine-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.food-items-list {
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+}
+
+@media screen and (max-width: 768px) {
+  .food-items-list {
+    width: 90%;
+    padding: 0px;
+  }
+}
+
+.food-items-wrap-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
